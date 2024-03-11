@@ -81,4 +81,8 @@ public class Farm {
         }
         return false;
     }
+
+    public ArrayList<Animal> getBarn() {
+        return barn;
+    }
 }

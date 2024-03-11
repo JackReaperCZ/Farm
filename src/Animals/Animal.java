@@ -43,4 +43,7 @@ public abstract class Animal {
                 ", specialCare='" + specialCare + '\'' +
                 '}';
     }
+    public void pet(){
+        System.out.println("You have petted : " + this);
+    }
 }
