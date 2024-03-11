@@ -1,7 +1,7 @@
 package Flowers;
 
-public class Cosmos extends Sunflower{
-    public Cosmos(String name, double price, double neededArea, double chanceOfGrowth) {
-        super(name, price, neededArea, chanceOfGrowth);
+public class Cosmos extends Flower{
+    public Cosmos(double price, double neededArea, double chanceOfGrowth) {
+        super("Cosmos", price, neededArea, chanceOfGrowth);
     }
 }
