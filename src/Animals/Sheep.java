@@ -1,7 +1,8 @@
 package Animals;
 
 public class Sheep extends Animal {
-    public Sheep(String type, String name, Size size, String specialCare) {
-        super(type, name, size, specialCare);
+
+    public Sheep() {
+        super("Sheep", Size.BIG, "cutting wool");
     }
 }

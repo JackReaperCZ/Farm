@@ -36,4 +36,9 @@ public class Farm {
         }
         plantedFlowers = new ArrayList<>();
     }
+    public void water(){
+        for (Flower f : plantedFlowers){
+            f.water();
+        }
+    }
 }

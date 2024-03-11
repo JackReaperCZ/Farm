@@ -1,7 +1,7 @@
 package Flowers;
 
 public class Bougainvillea extends Flower{
-    public Bougainvillea(double price, double neededArea, double chanceOfGrowth) {
-        super("Bougainvillea", price, neededArea, chanceOfGrowth);
+    public Bougainvillea() {
+        super("Bougainvillea", 50, 12, 65);
     }
 }

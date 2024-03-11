@@ -13,7 +13,7 @@ public abstract class Flower {
         this.neededArea = neededArea;
         this.chanceOfGrowth = chanceOfGrowth;
     }
-    protected void water(){
+    public void water(){
         if (chanceOfGrowth<=80){
             chanceOfGrowth+=20;
         } else {
